@@ -1,0 +1,7 @@
+- Textbook on O'Reilly
+- Will be travelling one week in June and one week in July
+- Midterm - 30%, Final - 30%, Programming Projects - 25%, Quizzes 5% each with the lowest quiz dropped.
+- At end of semester look at my score and the median of the class, and decide where the cutoffs are going to be for A- vs A
+- Every day late from projects maximum score drops by 10%, but skips holidays and weekends
+- Out of class Demos with the TA
+- Java C or C++ for projects

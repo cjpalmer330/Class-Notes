@@ -1,0 +1,27 @@
+- attendance quiz
+### Instructor Information
+- Prof. Nhut Nguyen
+- Office ECSS 3.607
+- must reserve exam seats
+## <span style="color:#9dcfff">Introduction</span>
+- what will be covered
+	- Security concepts
+		- threats, attacks, mechanism, services, architecture
+	- Computer systems and network attacks, 
+	- Tool and techniques against security attacks
+- not be covered
+	- Advanced cryptography, cryptocurrencies, blockchain, how to hack, how to ace cybersecurity certification exams
+- Exams
+	- Three exams with the last being comprehensive
+	- must reserve time in the testing center
+	- Exam 1
+		- September 24th
+		- 10% final grade
+	- Exam 2
+		- November 5th
+		- 20% final grade
+	- Exam 3
+		- December 5th
+		- 30% final grade
+- Assignments are 25% final grade. 5 assignments throughout semester
+- Attendance is 15% final grade

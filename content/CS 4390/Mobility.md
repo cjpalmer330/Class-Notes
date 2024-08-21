@@ -1,0 +1,38 @@
+# Outline
+- Addressing and routing to mobile users
+- Mobile IP
+- Handling mobility in cellular networks
+- Phone numbers used to be Area code (214) the next 4 numbers being sub regions, say plano, and the last 4 were your designated phone.
+	- When you moved, you would need a new number because the first 6 digits were geographically fixed
+- with the advent of mobile phones these geographical ties to number aren't reliable.
+- Mobile Switching center connects a wide area network to a wired public network
+- The cell towers are covering a geographical region through air interface.
+- The cell towers are typically wired directly to the MSCs but in more rural areas they may connect through satellites or relays
+## Cellular Standards
+- 2G systems
+	- No data only voice systems
+- 2.5G
+	- introduced data signals
+	- General packet radio service, evolved from GSM
+	- upped data rate to ~384Kb/s
+- 3G / 4G
+	- both upped data rate and speeds
+	- can achieve up to 100 Mb/s in ideal conditions
+- Let routing handle:
+	- Routers advertise permanent address of mobile nodes in residence via usual routing table exchange
+	- Not scalable to the millions of phones across the country because the amount of updates of routing tables would be unmanageable
+- Let end systems handle it:
+	- Indirect routing:
+		- communication from correspondent to mobile goes through home agent, then forwarded to remote
+	- Direct routing:
+		- correspondent gets foreign address of mobile. sends directly to mobile
+## Definitions
+- Home network, permanent home of mobile, some geographic place
+- Home agent: entity that will perform mobility functions when phone is remote
+- Visited network: network in which mobile currently resides
+- Care-of-Address:
+	- You get a new temporary, second phone number when you are in a new location, that is mapped to your phone
+- Home Location register:
+	- database in the home network containing permanent cell phone, profile information, and information about current location
+- Visitor Location register
+	- database in foreign network containing your temporary cell phone number, and information about home network

@@ -1,0 +1,28 @@
+- Office hours Wednesday 1-2pm
+	- ECSS 3.228
+- With very large amounts of data and processing needs, putting all the capabilities in one machine is not possible
+	- as such we can chain dozens of machines together to form a cluster of machines each with their own cpu, disks, and ram
+- Three exams, October, November, December. not comprehensive
+- 40% exams, 55% from assignments, 5% from quizzes
+# Topics
+- Hadoop
+	- Key value pairs
+	- map reduction
+	- good for set sizes of data. Non-stream data
+- Spark
+	- developed in UC Berkeley and used more now
+	- can handle stream and non-stream data.
+- Unsupervised Learning
+- Clustering
+- Recommendation Systems
+	- Content based recommendation
+	- Collaborative Filtering
+	- Latent Factor Model
+- Large Language Models if time in the semester permits
+- Types of Data
+	- Structured
+		- csv, sql database
+	- Un-Structured
+		- news paper
+	- Semi-Structured
+		- html / xml where things are placed in blocks 

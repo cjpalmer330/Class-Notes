@@ -1,0 +1,21 @@
+### Instructor Information
+- Office hours: Tu 1p-2p virtual
+	- Th 1p - 2p in person ECSS 3.202
+- Prof Email: gity\.karami\@utdallas.edu
+- Piazza for simple Q&A
+- midterm 20%, quizzes 10%, final 30%, assignments 40% (10 each)
+	- drop 3 quizzes at the end of the semester
+	- quizzes are completion if you show effort, and she will post the sample solutions after the quiz is due to check your answers and what you got wrong
+- Midterm October 10th
+	- In the testing center
+	- open note
+	- open ended questions
+	- Chapter 1, Functional Programming, Syntax and semantics, Lexical and Semantic analysis
+- Final Exam December 9th
+	- testing center
+	- open note
+	- comprehensive
+- 
+## <span style="color:#7acdff">Course Topics</span>
+- Learn multiple programming languages in a rapid manner. with a new language every few weeks
+- Language based security, and web security
