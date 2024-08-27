@@ -1,0 +1,18 @@
+- Named after Maurice Karnaugh
+- [K-Map Example Image](./k-map-image.png)
+- The table gives you all possible values for the number of bits
+- 2 input map
+  - A'B' A'B
+  - AB' AB
+- K-Maps minimize terms graphically
+- Fill up the k map by the truth table
+- each neighbor has one term where a single variable switches from positive to negative, this is how we can remove the term
+- Each adjacent 1 is ANDed together, the terms are then summed
+  - Every 1 must be circled at least once
+  - Every circle must span a power of 2
+  - each circle must be as large as possible
+  - A circle may wrap around the edges
+    - for example in the second image, 100 and 110
+- Can utilize "Don't Cares" [[Part 2- Combinational and Sequential Logic Designs#Logic to Gates]]
+  - Want to enlarge the circles to include the Xs to include more terms.
+  - However if an additional circle will grant no additional 1s then don't bother circling the x

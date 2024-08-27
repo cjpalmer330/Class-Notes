@@ -1,0 +1,297 @@
+# Chapter 1 - Terms and Concepts
+- Economics is the study of how individuals and societies choose to use the scare resources
+	- The key word being *choose*, economics is a social science
+- Three fundamental concepts of Economics
+	- Opportunity cost
+		- The best alternative that we give up when making a choice. for example giving up sleep or watching a movie in order to study. The number #1 choice only
+	- Marginalism
+		- the process of analyzing the additional or incremental costs or benefits arising from a choice
+		- "diminishing marginal utility", the first slice of pizza is the most satiating
+		- "Profit on the margin", the first 1000 or whatever of a product are sold at a loss, until the cost to produce your product is lower than the sell price.
+		- An efficient market is a market which profit opportunities are eliminated very fast
+		- Monopsony - A single buyer, Walmart becomes essentially only buyer of products from companies because they have so much market share they can negotiate contracts
+- Positive economics
+	- seeks to understand without making judgements, descriptive
+- normative economics
+	- prescriptive, analyze outcome and evaluate them as good or bad, "policy economics"
+- *ceteris paribus* is a term for "all else equal"
+- Four Criteria for judging economic outcome
+	-  Efficiency
+		- **Allocative efficiency**, the efficiency of how we distributed our resources to make the certain products.
+		- An economy that produces what people want at the least possible cost
+	- Equity
+		- Strive for the most "fairness"
+	- Growth
+		- increase in total output of the economy, the GPD usually is the measure of output.
+			- Ideally, you want ~3% GDP growth in a year, that is seen as healthy, too low or even too high is considered unsustainable.
+	- Stability
+		- A condition in which national output is growing steadily, with low inflation, and full employment of resources.
+		- slow growth, slow shrinking, slow inflation, everything happening in a "controlled" manner so to speak
+			- Unemployment under 5% is the goal
+# Chapter 2 - Scarcity, Advantage, PPF Chart
+- The Economic Problem: Scarcity and Choice
+- Capital - can be something other than just money, it could refer to anything that is used in the production of the output.
+- Production Possibility Frontier **(PPF)**
+	- Consumer vs Capital goods
+		- Capital goods are products used by companies or governments to produce the consumer goods
+		- Consumer goods are the toys, utensils, anything that the general population actually uses
+	- Shows all the combinations of goods and services that can be produced if the societies resources are used efficiently
+	- Can be used for many things, usually is a good way to display opportunity cost, as it is a arching shape where the increase of production of one necessarily implies the decrease in production in some other product to properly allocate the resources.
+		- Japan spends nearly all resources making capital goods, as they don't have a ton of resources, so they need to spend what they do have to the more important capital.
+		- Low income countries spend nearly all their resources on consumer goods, as they don't have the technological development, or money to produce the more advanced machinery or plants.
+	- Marginal rate of transformation is the slope of the PPF, which is equal to the opportunity cost.
+- Theory of comparative advantage
+	- Free trade and specialization benefits all parties
+	- absolute advantage
+		- a person or entity simply has more resources, workers, or some other metric that makes it easier or cheaper to produce something
+	- comparative advantage
+		- a lower opportunity cost in some specific mode of production for example china has very low labor cost so even though they have less resources, they can produce things for much cheaper.
+	- "It is always better to specialize, it is always better to trade"
+- Complex and simple economies must make the same decisions.
+- If Colleen is better at catching fish and chopping logs than bill, she has higher absolute advantage.
+	- however, it is better for her to specialize in catching fish and bill to collect the logs as that reduces the opportunity cost the most to where Colleen not catching a fish would cost her more logs than bill would be able to chop in that amount of time.
+	- Whomever loses the least amount of fish per log chopped, should be the one chopping the logs.
+- The slope is the comparative advantage.
+- The Law of increasing Opportunity Cost
+	- The increased production of something, always decreases the production of the other
+# Chapter 3 - The Laws of Supply and Demand
+### The Law of Demand
+	
+- Keeping all things equal, the inverse relationship between the price and quantity demanded.
+- Always a movement along the curve, not a jump to a random position, or total cessation
+	- There is always a Y intercept, the point you will stop purchasing the product, and an X intercept where even if it was free, you will run out of demand for the product
+	- Sources of Shifts of the demand curve
+		- Expectations of the economy
+		- Changes in tastes and preferences
+		- Changes in Income
+	- Normal Goods
+		- Goods for which demand goes up when income is higher and for which demand goes down when income is lower
+	- inferior goods
+		- goods for which demand tends to fall when income rises
+	- Substitutes
+		- *Positive Elasticity*
+		- Goods that can serve as replacements for one another; price increase for one increases the demand for the other
+		- A movement of the demand for Oreos goes down, causes a *SHIFT* increase in great value cookies
+		- Oreos vs Great Value cookies
+	- complementary goods
+		- *Negative Elasticity*, opposite of a substitute good
+		- goods that go together; a price decrease of one results in a *SHIFT* increase in the other's demand
+		- A movement of the price on product A causes a *shift* in product B
+		- The cost reduction of keyboards increases demand for mice because you want to buy them together.
+### The Law of Supply
+- Technology improvement shifts the supply to the right, and lowers the price
+- Bad weather can do the inverse, shift left, raise price
+- Input cost and technology are the biggest factors in supply
+	- Input cost : Labor, machine cost, raw supplies cost, electricity etc.
+- Where quantity supplied equals the quantity demanded, we reach equilibrium
+	- when demand exceeds the supply we have a *shortage* -> price rises
+	- when supply exceeds the demand we have a * surplus * -> price falls
+- In a free market system, price is the rationing method
+
+# Chapter 4 - Supply and Demand Applications
+### Alternative Price regulation
+- Sometimes governments or firms use other mechanisms than price, to ration excess demand
+	- Attempts to bypass price rationing in the market are more difficult and more costly than they seem initially
+	- Such attempts distribute costs and benefits among households in unintended ways
+- Black market
+	- An illegal market that evades the governments regulation or control
+	- Nothing ever goes away if made illegal, it only becomes more dangerous and uncontrolled.
+- Price Ceiling
+	- below the equilibrium price
+	- Quantity Demand > Quantity Supplied  ->  Shortage
+	- The government sets a cap / maximum on the price of a good or commodity that is ***below*** the equilibrium price to force the price lower.
+	- chops the graph at a lower x value, which lowers the supply available / being constructed at such a price, and increases the demand as more people are able to afford housing
+	- Unintended consequences
+		- a large shortage, and waitlist
+		- No financial incentive to upkeep the apartments, and not much capital to update the building so it become very dilapidated
+		- illegal price hiking where the landlord pockets the profit under the counter
+- Price Floor
+	- Above the equilibrium price
+	- Quantity Supplied > Quantity Demanded  ->  Surplus
+	- An example is a minimum wage, you setting the price of labor at a minimum of $7.25
+	- creates a surplus, where there are more people willing to work, or more producers of a product than the demand for labor, or demand for the product.
+	- unintended consequences
+		- Price raises for consumers
+		- May not want to hire as many workers at such a price, so unemployment might rise
+- Consumer surplus: Your willingness to pay for something regardless of the price.
+	- If the cost of a burger is $2.50, but person A is willing to pay $5 they have a consumer surplus of $2.5
+	- Total consumer surplus is the area of the curve above the equilibrium price
+- Producer surplus: difference between the current market price and the cost of production for the firm
+	- If burgers are sold for $2.50, but it only costs them $1 to produce the burger, then they have a $1.50 producer surplus.
+	- The total producer surplus is the area of the curve below the equilibrium price
+- Deadweight loss: the total loss of a produce and consumer surplus from under or over production
+- Coase Theorem
+	- You don't need any government intervention for cooperation, two orgs can come to agreement if they meet these points
+		- Clear property rights
+		- Zero to no transaction cost
+		- One entity can not have market power over the other entity
+	- Falls apart eventually
+		- Not always clear what the property rights are
+		- Very rare that both entities can be on equal grounds. The factory vs the fishermen
+		- Getting zero transaction cost, while still being a mutually beneficial deal
+### Interest Rates
+#### 2020-2023 inflation
+-  Pre covid - there was a lot of money in the circulation, which means a likely rise in inflation and recession
+- Because of covid shutting down businesses, people needed income in order to pay for food, so we started giving out relief checks, and business forgiveness which caused more inflation
+- Business were closed so people weren't spending their money at events, and restraunts for example, so they are just holding on to this cash
+- Ukraine war caused oil shortage from imports which caused raising prices, and even more inflation
+#### We have created the perfect storm for inflation to rise
+- When money supply goes up, interest rates go down / [[#Federal Funds Rate]]
+	- When money supply goes down, interest rates go up
+	- Can directly influence the interest rates, however they generally influence the money supply so that the interest rates from banks naturally go in the direction that they desire to reach equilibrium
+- Interest rates go up, consumption and firm investment goes down     the visa versa is also true
+#### Federal Funds Rate
+- Key interest rate
+	-  If the FFR goes up, the banks are less likely to lend out money for mortgages or for small business loans
+	- This causes Mortgage rates and loan rates to go up, so that the banks can justify this higher interest rate they are having to pay getting cash from other bank firms
+- The overnight rate that banks borrow from other banks
+- Target inflation not the unemployment
+	- Inflation / hyperinflation destroys the economy.
+- Stagflation
+	- Very high inflation coinciding with very high unemployment.
+#### Mortgage Rates
+- down payment of 10 or 20% of the house value
+- very closely tied to the [[#Federal Funds Rate]], that is they go up and down like the FFR
+- When you buy a house, your mortgage rate is locked in
+
+# Chapter 5 - Terms of Macroeconomics
+- Major concerns of Macroeconomics
+	- Output growth
+	- Unemployment
+	- Inflation and deflation
+- Circular Flow
+	- A Diagram showing the income received and payments made by each sector of the economy
+- Transfer Payments
+	- Cash payments made by the government to people who do not supply goods, services, or labor in exchange for these payments. They include Social Security benefits, veterans' benefits, and welfare payments.
+- Fiscal Policy
+	- Government policies concerning taxes and spending
+- Monetary Policy
+	- The tools used by the Federal Reserve to control the short-term interest rate.
+	- Much faster acting, affecting wide swaths of the market
+- Treasury bonds, notes, and bills
+	- Promissory notes used by the federal government when it borrows money
+- corporate bonds
+	- Promissory notes issued by firms when they borrow money
+- shares of stock
+	- Financial instruments that five to the holder a share in the firm's ownership and therefore the right to share in the firm's profits
+- dividends
+	- The portion of a firm's profits that the firm pays out each period to its shareholders.
+# Chapter 6 - GDP & GNP
+- GDP
+	- ***GDP = final sales + change in business inventories***
+	- the total market value of all final goods services produced within a given period
+	- Final goods
+		- The last good produced for use
+	- intermediate goods
+		- goods produced by one firm for the use in further processing
+	- GDP does not count intermediate goods, or transactions in which no money is exchange hands
+	- Current dollars
+		- the current prices that we pay for goods and services
+	- nominal GDP
+		- GDP measured in current dollars
+		- not adjusted for inflation
+		- Price of good in 2023 * quantity in 2023
+	- real GDP
+		- GDP measured in some set years' dollars
+		- adjusted for inflation using a base-year or weighted procedure
+			- base-weighted was used up until 200 for GDP, GNP and a lot of other metrics, which is 
+		- Price of good in 2022 * quantity of good in 2023
+- GNP
+	- The total market value of all final goods and services produced by companies OWNED by the countries' companies regardless of location
+	- Apple's factories in china, Honda's factories in the united states
+- Expenditure Approach:
+	- GDP = C + I  + G + ( EX - IM )
+	- Personal consumption (C)
+		- By far the largest contributor to the GPD, with upwards of 70% of the total expenditure coming from personal consumption
+		- expenditures by consumers
+		- durable goods
+			- Goods that last a really long time, such as refrigerators, mattresses, cars.
+		- nondurable goods
+			- goods that are used up fairly quickly such as food and clothing
+		- services
+			- the things we buy that do not involve production
+	- Gross private domestic investment (I)
+		- Total investment in vavpital, the purchase of new housing, plants, equipment
+		- nonresidential investment
+			- expenditures by firms for machines, tools, plants
+		- residential investment
+			- expenditures by households and firms on new house / apartments
+		- depreciation
+			- the amount by which an asset's value falls in a given period
+		- gross investment
+			- the total value of all newly produced capital goods
+		- net investment
+			- gross investment minus depreciation
+		- Change in business inventories
+			- buying more of an item to keep in stock
+	- Government consumption and gross investment (G)
+		- Expenditures by federal, state, and local governments for goods and services
+			- Social security, Medicare, military
+	- Net exports (EX - IM)
+		- The difference between exports and imports, can be a negative number if the country imports more than it exports
+- Income Approach
+	- National income
+		- The total income earned by the factors of production owned by a country's citizens
+	- compensation of employees
+		- By far the largest factor in the income approach, as the largest cost in producing something is paying your employees
+		- includes wages, salaries, pension funds, social insurance ...
+	- proprietors' income
+		- the income of unincorporated businesses
+	- Net National Product
+		- Gross National Product minus depreciation. A nation's total product minus what is required to maintain the value of its capital stock
+# Chapter 7 - Unemployment, Inflation
+- Unemployment
+	- Employed
+		- Any person 16 years old or older who works for pay, either for someone else or in his or her own business for 1 or more hours per weel. who works without pay for 15 or more hours per week in a family enterprise, or who has a job but has been temporarily absent with or without pay
+	- Unemployed
+		- A person 16 years old or older who is not working, is available for work, and has made specific efforts to find work during the previous 4 weeks.
+		- unemployment rate does not count the discouraged workers
+	- not in labor force
+		- Someone who is not looking for work because he or she does not want a job or has given up looking
+	- Labor force includes unemployed, just not the discouraged workers
+	- labor force participation rate is the ratio of the labor force to the population over the age of 16
+	- Natural rate of unemployment is made up from frictional and structural unemployment
+	- Frictional Unemployment
+		- Trying to find jobs that better match my degree, qualifications, or specialties
+	- Structural Unemployment
+		- The job becomes obsolete, or ceases to exist. For example, the fall of the auto industry in the US
+	- Cyclical Unemployment
+		- When the economy is in a downturn some people inevitably become unemployed
+- Inflation
+	- Often takes out food and energy sources when publishing national numbers
+	- CPI
+		- A price index computed each month by the Bureau of Labor Statistics using a bundle that is meant to represent the "market basket" purchases monthly by the typical consumer
+		- If a product increases in price, they will substitute another comparable product that has maintained its value so as to look like there hasn't been as much an increase in prices
+	- PPI
+		- Measures of prices that producers receiver for products at all stages in the production process
+	- Real Interest rate R = Nominal r - inflation rate
+		- The bank wants to ensure they get their money back including the predicted inflation rate, so if R = 10% = x - 5%, they will charge 15% interest rate so that they get their interest back + the inflationary loss in money.
+		- If unanticipated inflation is higher than the rate used when calculating the rate the banks are charging, Then I as the bower technically got more bang for my buck as I wasn't having to pay as high a rate
+		- If the unanticipated inflation is lower than the rate expected, then The bank is making even more money then they were intending
+
+
+# Review for Exam 1
+## Chapter 1 - 4
+- Productive Efficiency - The production is along the PPF curve, using all resources
+- Allocative Efficiency - The production is right place along the PPF curve, producing most of what the society desires for cheap
+- *ceteris paribus* - "all else equal"
+- Shift of the demand curve causes: Changes in preference, change income, change in price of substitutes or complimentary goods, expectations for the future (recession, inflation, boom).
+- Shift of the supply curve causes: Technological improvements, changes in input costs such as wages and energy, weather, regulations
+- A reseller makes money when the initial price is sold below equilibrium price
+- Nonprice rationing system - queuing, wait lists, one per household. artificial limits
+- Consumer surplus, the amount they are willing to pay - the market price
+## Chapter 5 - 7
+- in a recession, wages fall 
+- in a time of high inflation, the government will try to decrease spending and increase taxes
+	- The FED will increase interest rate and decrease money supply
+- firms demand labor, houses demand goods and services
+- nominal GDP is not adjusted for inflation NON- NOM,
+- real GDP IS adjusted for inflation
+	- quantity of year of production * price in base year
+- Unemployment doesn't count discouraged workers
+- Structural - Falling, collapsing, Frictional - just hard right now, cyclical - business cycle
+- CPI is used to measure inflation
+	- If the price index in 2005 is 125, and in 2006 it is 105, the rate of inflation is -> (105 - 125) / 125 ~ -16%
+- PPI is the best measure of future inflation rates
+- Real interest rate R = nominal rate - Inflation Rate
+- inflation higher than expected borrower wins, lower than expected the lender wins.

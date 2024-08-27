@@ -1,0 +1,36 @@
+# Pre test review
+- K - Map
+- Circuit design
+	- Figure out how many inputs and outputs you have
+	- Make sure you have a description of the function, either as a truth table or expression
+	- Convert this into a simplified boolean expression
+	- build the circuit based on the expression
+- Combinational building blocks examples
+	- Multiplexer
+		- select between inputs
+	- Decoder
+		- one hot outputs from N inputs
+- Sequential Logic
+	- State Elements
+		- Bistable circuit
+		- SR Latch
+			- Set reset
+			- S = 0, R = 0, Q = Previous
+			- S = 1, R = 0, Q = 1 ( Set )
+			- S = 0, R = 1, Q = 0 ( Reset )
+			- S = 1, R = 1, is invalid state
+		- D Latch
+			- Simply a SR Latch that removes the invalid case because the S and R both stem from one input. Also connected to the clock via and gate to allow timing to the switching
+			- The Latch is transparent when the clock is high
+		- D Flip-Flop
+			- Made from two D Latches, connected in series
+			- When clock = 0 first d latch is 0, and the value passes to the second d latch, on clock = 1 second d latch becomes transparent. So the value only passes out of the d flip flop on rising edge
+			- The Flip-Flop only passes the value through on the rising edge on the clock, not just any time when the clock is at a high state
+		- Registers
+			- DFFs connected to a single clock line, where each DFF stores a single bit of information
+	- FSM
+		- Next state always depends on the current state and the inputs
+		- Moore FSM: output depend Only on current state
+		- Mealy FSM: output depend on Current state and the inputs
+			- extra line from inputs to the output combinational logic
+

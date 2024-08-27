@@ -1,0 +1,100 @@
+# Chapter 8
+ - Aggregate output (y)
+	 - The total quantity of goods and services produced in an economy
+- Aggregate income (y)
+	- The total income received by all factors of production in a given period
+- consumption = MPC (y) + intercept
+	- Marginal Propensity to Consume
+		- fraction of income that is consumed
+	- Marginal Propensity to Save
+	- MPC + MPS = 1
+- Planned investment
+	- Those additions to capital stock and inventory that are planned by firms
+	- if (y) < consumption + investment, planned investment > actual investment
+		- (y) output, needs to increase
+	- Interest rates and planned investment are negatively correlated
+- Actual investment
+	- The actual amount of investment that takes place, it includes items such as unplanned changes in inventories
+	- if (y) > consumption + investment, actual investment > planned investment
+		- (y) output, needs to lower to equalize with demand
+- Planned aggregate expenditure
+	- The total amount the economy plans to spend in a given period. Equal to consumption plus planned investment
+- Investment Multiplier
+	- The expected return for every dollar invested by a firm
+	- 1 / MPS
+- Change in Y = IM * Change in investment spending
+- Change in Y = GM * Change in government spending
+- Change in Y = TM * Change in taxation
+- Gm - Government Multiplier
+	- 1 / mps
+- Tm - Tax multiplier
+	- - ( mpc / mps )
+- Yd - disposable income
+	- income after taxes
+	- ( Y - T )
+- Y = C + I + G
+- S = I
+- C = a + bYd
+- S = a + bYd
+- Balanced Budget Multiplier = Gm + Tm = 1
+# Chapter 10
+## An Overview of Money
+- Commodity Money
+	- Has intrinsic value like gold, silver, crops like corn or wheat
+- Fiat or token money
+	- Items designated as money that are intrinsically worthless
+	- Stamped with legal tender is what makes it worth something
+- Legal tender
+	- Money that a government has required to be accepted in settlement of debts
+- M1 or Transactions money
+	- Money that can be directly used for transactions
+	- M1 = Cash outside banks + demand deposits + traveler's checks + other checkable deposits
+- M2 or broad money
+	- M1 plus savings accounts, monkey market accounts, and other near monies.
+	- M2 = M1 + savings account + money market accounts + other near monies
+	- The only time M2 changes is when expenses are made, movement between checking and savings does not change M2, only changes M1.
+- When there is a recession
+	- Increase the money supply in order to lower the interest rates.
+	- Lowering interest rates increases consumption and investment which stimulates the economy
+- When there is inflation
+	- Retract the money supply in order to increase the interest rates.
+- 4 Tools used by FED to control money supply
+	1. g = required reserve ratio
+		- Percentage that banks must keep with the federal reserve
+		- When g raises, bank must keep more money with federal reserve, causing the Money supply to go down, thusly the interest rate goes up.
+		- g ^ = Less MS = ^ interest rates
+	2. Discount Rate
+		- Rate that banks borrow from the FED
+		- DR ^ = Less MS = ^ interest rates
+		- DR down = ^ MS = lower interest rates
+		- Kept higher than the FFR because it looks bad optically when the banks have to borrow from the government in order to make their payments
+	3. Federal Funds Rate (FFR) key interest rate
+		- The overnight rate at which banks borrow from each other
+		- if FFR goes up, so does mortgage rate, car loans, student loans etc. Because the banks are having to pay more for their liquidity
+		- FFR ^ = Less MS = ^ interest rates
+	4. Open market operations
+		- FED Buy bonds = ^ MS = lower interest rates
+		- FED Sells bonds = lower MS = ^ rates
+	- R = gD
+		- R = require Reserves
+		- g = required reserves ratio
+		- D = deposits
+	- Money Multiplier = 1/g
+	- Excess Reserves = Actual Reserves - R
+	- Loans = Excess Reserves * Money Multiplier
+	- Total MS in bank = Initial Deposit * Money Multiplier
+# Chapter 11
+- Money Demand
+	- Money you hold in M1 for transaction purchases. 
+	- Opportunity cost of money you hold is the interest rate
+	- uses X axis to determine level of Md
+	- Movement along the Md curve is caused by a change in MS
+	- Shift of the Md curve is caused by a change in Y (aggregate output/income) or PL ( Price Level) in the same direction
+		- rise in aggregate output, ^ in Md
+		- fall in PL, lower of Md
+		- shift of the money demand curve
+- MS = Deposit * MM
+- for multiple banks  loans = deposit - R
+- Fed actions affect MS, which affect Md
+- Injection = Investment
+- Leakage = Savings function ex. -100 + 0.25Y

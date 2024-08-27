@@ -2,7 +2,12 @@
 title: Chris's Notes
 ---
 
-# <span style="color:#7dafff">Last Updated Friday August 23 1:30 PM</span>
+# <span style="color:#7dafff">Last Updated Tuesday August 27 10:45 AM</span>
+
+- Changelog:
+  - added notes for ECON 2301
+  - added notes for CS 4341
+  - updated CS 4349 to include monday's lecture
 
 # What Classes do I have covered?
 
@@ -11,8 +16,8 @@ Below is all the classes that I have uploaded my notes for to this site. You can
 | Classes                                                                       | Professor | Semester | Status                                         |
 | ----------------------------------------------------------------------------- | --------- | -------- | ---------------------------------------------- |
 | CS 4347 Database Systems                                                      | Kumar     | Sp '24   | <span style="color:#FF9b77">Coming Soon</span> |
-| CS 4341 Digital Logic                                                         | Li        | Sp '24   | <span style="color:#FF9b77">Coming Soon</span> |
-| ECON 2301 Macro Econ                                                          | Kepler    | Sp '24   | <span style="color:#FF9b77">Coming Soon</span> |
+| [CS 4341 Digital Logic](./Spring-24/CS-4341/4341-Home.md)                     | Li        | Sp '24   | <span style="color:#2af745">Completed</span>   |
+| [ECON 2301 Macro Econ](./Spring-24/ECON-2301/ECON-2301-Home.md)               | Kepler    | Sp '24   | <span style="color:#2af745">Completed</span>   |
 | [CS 4348 Operating Systems](./CS%204348%20OS/4348-Home.md)                    | Prakash   | Su '24   | <span style="color:#2af745">Completed</span>   |
 | [CS 4390 Computer Networks](./CS%204390/4390-Home.md)                         | Gupta     | Su '24   | <span style="color:#2af745">Completed</span>   |
 | [CS 4337 Programming Paradigms](./Fall-24/CS%204337%20Paradigms/4337-Home.md) | Karami    | Fall '24 | <span style="color:#FF9b77">In Progress</span> |
