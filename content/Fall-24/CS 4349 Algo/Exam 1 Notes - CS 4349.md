@@ -22,6 +22,8 @@
 | n ^ k     | o(c^n)                |
 | n^(log c) | Θ(c^(log n))          |
 | log(n!)   | Θ(n log n)            |
+| sqrt(n)   | n^(sin n)             |
+| --------- | --------------------- |
 
 ## Big O
 
@@ -99,6 +101,13 @@
 
 ## Techniques for Solving Recurrences
 
+- Recurrence Relations generally follow the form
+  - T(n) = aT(n/b) + f(n)
+  - n/b represents the size of the sub problem
+  - a is the number of times each size is called in each sub problem
+  - f(n) is the cost for the non recursive part
+  - Merge sort would have the relation T(n) = 2T(n/b) + f(n)
+
 ### Substitution Method
 
 1.  guess the form of the solution
@@ -110,4 +119,59 @@
 
 ### Recursion Tree
 
+1. Draw the size and number of nodes labeled in reference to n
+   - The first layer has one node n, layer two has two nodes of size n/2 etc.
+   - the root node is the original problem
+   - The leafs are the base cases. For merge sort that constant would be when the node is of size 1
+2. each layer has a time complexity of the sum of each node
+3. Solve for the height of the tree
+4. The total work = height of the tree \* work per level
+
 ### Master Method
+
+- If a < b then we know that the function is sublinear
+- if b < a then the function is some function greater than n^1 ( aka linear)
+- There are three cases in the master method that can be used to quickly find the growth rate of a recurrence relation
+  1.  If f(n) is O(n^(log b a - i)) where i is some constant. then the leaves are growing faster than f, so asymptotically T(n) = Θ(n^log(b)a)
+  2.  if f(n) is Θ(n^log(b) a) the leaves grow at the same rate as the base function, so the tree has O(log n) levels. yielding T(n) = Θ(n^log(b)a (log n))
+      1. The work done by the root is the same amount of work done by the leaves, as is with merge sort. So the total work = height of the tree \* work per layer
+  3.  f(n) is Ω(n^(log(b) a + i)) where i is some constant. in this case f grows faster than the leaves, which means that the work is dominated by the root.
+      1. if af(n/b) <= cf(n) where c is some constant c < 1
+      2. Then T(n) = Θ(f(n))
+
+### Examples
+
+- T(n) = 4T(n/2) + n
+  - Each layer has 4 subproblems each of size n/2
+  - n^(logba) = n^2
+  - f = O(n^2)
+  - T(n) = Θ(n^2)
+- T(n) = 2T(n/4) + n
+  - log4 2 < 1
+  - f(n) = Ω (n^logba)
+  - f(n) = Θ(n)
+- T(n) = 4T(n/2) + n^3
+  - n^log(2) 4 = n^2
+  - f(n) = Ω(n^2)
+  - T(n) = Θ(f(n)) = n^3
+
+# Maximum Subarray
+
+- Given an array find a non-empty contiguous subarray whose values have the largest sum
+  - Example A = \[-2,1,-1,4,-1,2,1,-5,4]
+  - Maximum subarray B = \[4,-1,2,1]
+- Brute-Force Approach
+  - With a nested for loop try every possible subarray keeping track of the largest sum from those subarrays. obviously this runs in O(n^2)
+- Divide and Conquer Solution
+  1.  Divide the array into two parts A\[1:mid] and A\[mid\:A.length]
+  2.  The maximum subarray is either
+      1. Entirely in first half
+      2. Entirely in second half
+      3. Or crossing the midpoint
+  - The first two cases we can handle recursively in n log n
+  - For the 3rd case we need to use a find-max-crossing-subarray function
+    - We have two sums one fore the left and one for the right, initialized to -inf
+    - starting from mid, we go left and right respectively, updating the current and max sum for each side
+    - The max_left and max_right is typically the index because the actual sum doesn't matter just that the subarray is the maximum
+    - O(n)
+  - Compare the three test cases to find the total maximi

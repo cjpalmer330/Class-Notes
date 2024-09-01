@@ -2,12 +2,12 @@
 title: Chris's Notes
 ---
 
-# <span style="color:#7dafff">Last Updated Tuesday August 27 10:45 AM</span>
+# <span style="color:#7dafff">Last Updated Sunday September 1 2:45 AM</span>
 
 - Changelog:
-  - added notes for ECON 2301
-  - added notes for CS 4341
-  - updated CS 4349 to include monday's lecture
+  - updated all Fall '24 pages to have week 2 notes
+  - added notes for 4371 quiz 1
+  - fixed exam 1 notes for ECON 2301
 
 # What Classes do I have covered?
 

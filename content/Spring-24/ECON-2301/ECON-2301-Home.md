@@ -2,7 +2,7 @@
 
 ## Taken Spring '24 with Prof. Kepler
 
-## [Exam 1 Notes](./Exam%201%20Notes.md)
+## [Exam 1 Notes](./Spring-24/ECON-2301/Exam-1-Notes.md)
 
 ### Topics
 
@@ -18,7 +18,7 @@
 - CH. 7 Unemployement and Inflation
 - Exam 1 Review
 
-## [Exam 2 Notes](./Exam%202%20Notes.md)
+## [Exam 2 Notes](./Spring-24/ECON-2301/Exam%202%20Notes.md)
 
 ### Topics
 
@@ -27,7 +27,7 @@
   - 4 Tools to control Money Supply
 - CH. 11 Money Demand
 
-## [Exam 3 Notes](./Exam%203%20Notes.md)
+## [Exam 3 Notes](./Spring-24/ECON-2301/Exam%203%20Notes.md)
 
 ### Topics
 
