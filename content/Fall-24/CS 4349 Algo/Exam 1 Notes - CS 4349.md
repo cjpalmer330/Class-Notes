@@ -175,3 +175,70 @@
     - The max_left and max_right is typically the index because the actual sum doesn't matter just that the subarray is the maximum
     - O(n)
   - Compare the three test cases to find the total maximi
+
+# Quicksort Algorithm
+
+- Has a worst case of O(n^2), but an amortized runtime O(n log n)
+  - The reason you would use this over merge sort which is guaranteed n log n is because quicksort is an in place algorithm.
+  - Its possible that you choose a pivot and get unlucky and all the elements end up on one side, causing the time to approach O(n)
+- Choosing the Pivot
+  - We can choose an arbitrary position such as the first or last position
+  - We can choose a random index
+  - This has an impact on the runtime. a good pivot -> (n log n) run time, and a poor choice -> (n^2)
+- Partition function
+  - both i and j start at 0 and we iterate from 0 -> r-1 if the element is less than r, the i index progresses, otherwise the j index progresses.
+  - We swap i and j if the element is greater than the pivot.
+- Order of operations
+  1.  split the array into two partitions using some pivot value
+  2.  recursively call quicksort on each partition, to create its own partition
+  3.  In the partition function, we put all elements less than the pivot in the left subarray, and all greater than the pivot in the right subarray
+      1. partition garaunteed in the right position at the end ( all to the left are less, and all to the right are higher)
+- Reccurence Relation
+  - T(n) = 2T(n/2) + n
+  - Rule 1 of master relation
+    - f(n) > n^(logba)
+  - T(n) = Θ(n log n)
+- Example
+  - Array = \[2,8,7,1,3,5,6,4]
+  - pivot: 4 ( arbitrary, but we are choosing last element)
+  - i and j = 0
+  - for each element, if x < Pivot (4) add it to A\[i]
+    - else A\[j] = x
+  - after each element checked, A\[i+1] = Pivot
+
+# Selection Problem
+
+- Given some unsorted array, find the smallest element in A
+- We could first sort the array, with merge sort or quick sort, and then just index A\[1], which would solve our problem in O(n log n)
+
+## Quickselect
+
+- A recursive algorithm that gives us the smallest element, and only that one element in expected O (n) which is much faster than the naive approach
+- Using the same partition function from above, split and check the lowest with subarray
+- Can use the Median of Medians to find a good pivot
+  - Guarantees > 60% of array is in correct subarray relative to the pivot
+  - break array into groups of 5 (A\[0:4], A\[5:9], A\[10:14])
+    - if the last subarray has < 5 elements because n % 5 != 0, then we just choose one element arbitrarily
+  - find the median of each subarray
+  - Find the median value of the medians calculated in the previous step. This is your pivot
+- Why do we use groups of 5?
+  - With larger and larger groups we approach the runtime of simply sorting the array with merge sort. Which defeats the purpose
+  - With even groupings the first median would be an average of the two elements, which isn't very indicative of the true median
+  - With groups of 3, we can show with recurrence relation equation that a "good guess" Bn is always more computationally expensive that MoM approach with groups of 5
+
+## Decision Tree for Sorting
+
+A decision tree is a binary tree that represents the sequence of comparisons
+
+- Each node is labeled with a comparison i:j
+- each leaf node represents a permutation of the array
+
+# Dynamic Programming
+
+- An approach to solve a problem, where some part of the subproblem is repeated or reused.
+- For Example: Fibonacci numbers rely on the values of the previous sequence. So to find f(5) and subsequently f(6) would both require a recalculation of f(1-4)
+- Fibonacci
+  - Naive Aproach is the recursive call where we return Fibonnaci(n-1) + Fibonnaci(n - 2)
+    - this has a runtime that is exponential (Φ^n)
+  - Memorization Approach
+    - starting from F0 we store any values we haven't approached, and then in future computations we can pull from the cached values in O(1)

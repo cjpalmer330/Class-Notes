@@ -80,3 +80,35 @@
 - Scheme is a form of interpreters that uses an infinite ( REPL ) Read-Evaluate-Print Loop
   - Each of the parameter expression is evaluated, but we want the interpreter to skip over constants.
   - A Scheme program is a collection of function definitions
+
+# Chapter 3 - Syntax
+
+- The syntax is the formatting of the language
+- Terminology
+  - Sentence / Statement : A string of characters from some alphabet
+  - Language: A set of sentences
+  - Lexeme: lowest level syntactical unit
+    - every character in a program.
+    - x = 3 \* 4 has 5 lexemes
+  - Token: a category of lexemes
+- Languages can be formally defined in two ways
+  - Language recognizer
+    - determines whether the programs are syntactically correct
+  - Language generator
+    - generates all possible, valid sentences, and then determines if the set contains the sentence given.
+
+## Backus-Naur Form (BNF)
+
+- Fundamentals
+  - A metalanguage
+  - created in 1959 by John Backus
+  - Uses abstractions for syntactic structures
+- Left Hand Side (LHS) is the abstraction being defined
+  - LHS is always non terminal
+- Right Hand Side (RHS) consists of terminals and references to other abstractions
+- EX. Total = x + y
+  - Total is a non terminal abstraction ( variable)
+  - '=' is a terminal symbol
+  - X and y are other abstractions
+
+## EBNF
