@@ -24,3 +24,16 @@ Back Propagation is the process of taking this incorrect value, and moving backw
     - y = jΣ (wj xi - j)
   - In Practice
     - y = jΣ wj xi + j
+
+## CNN continued
+
+- Multiple Character Recognition
+  - Every layer is a convolution, and as such we can separate each character apart to its own convolution layer set
+  - Then putting these Single Character Recognizers together we can hopefully decode entire words
+- Humans naturally pick up on continuation very well. CNNs work because they pick up on this continuation
+- CNNs work when the input is a multidimensional array
+  - Where there is a continuation of data, with strong local correlations. (edges, small patterns, notable features)
+    - because CNN relies on a sliding window, it can only detect features that fit within its window. So smaller features are more likely to be detected within a given window
+  - Features that can appear anywhere in the image, and are resistant to translations and distortions.
+    - ( i.e. a rotated letter can still be read, but a smeared painting becomes unrecognizable)
+- running an image through multiple layers of scaling can help create more accurate models. This is because at the higher resolution, (larger image), the model can pick up on details and smaller hints such as faces, but when scaled down to fit wholly within the window, the model can recognize larger features like mountains and buildings.

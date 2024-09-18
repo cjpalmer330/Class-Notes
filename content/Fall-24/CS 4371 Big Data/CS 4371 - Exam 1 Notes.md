@@ -74,3 +74,36 @@
       - Acc + 5 = 15
       - Result = 15
     - Doesn't work well with parallelization because each sub value must be passed on to the next operation
+
+## TA Lecture - Sept 16
+
+- given a word count situation with three documents. the naive solution would have n key value pairs. where n is the number of words within all the documents
+  - This would be a massive amount of network traffic to transmit every \<word, 1> Key-value pairs
+  - Solution 1
+    - Each mapper will reduce its own word count, to remove duplicate keys within the single document / mapper
+      - Ex. \<a, 1> <a, 1> <a, 1> ---> \<a, 3>
+      - If a mapper handles multiple documents, there will still be duplicates between documents
+    - Each mapper then will have the total sum of each letter or word it saw within its domain/ document. Not the global sum however. for that we need to use the reducers
+    - So these intermediate key value pairs (Ex. \<a, 3> \<a, 5> etc.) are sent to the reducer sorted by key, which can combine the kv pairs to the lowest form (Ex. \<a, 8>)
+  - Solution 2
+    - using a mapper class that is initialized once, and has a map method that can iterate over several documents we are able to emit a single set of key value pairs to cover all documents in the domain. Thus, reducing network traffic to the reducers.
+- Computing the Average count of a word within the documents
+  - Method 1
+    - For each document, find the number of "apples" / # key-value pairs. (this number of pairs can have duplicates. for example a mapper with 2 documents could have 2 <k,v> pairs with the same key)
+    - This is a problem because the average is different based on the number of files, even with constant number of words.
+  - Method 2
+    - for each document, use a mapper to emit <k, 1>
+    - Using a combiner emit the sum of all key value pairs. emitting <k, v>
+    - Using a reducer to take results from all mapper/combiners into one list of the global sums of each key in the domain
+  - Method 3
+    - Initialize a Term dictionary and a count dictionary
+    - the map function will take in a string and an integer representing the count of that key within the document.
+      - The count dictionary value is incremented, as will the string dictionary
+  - Stripes Method
+    - Each mapper counts and sums a key value pair for every word / letter
+    - The reducer then does a term wise summation (summation of all a, b, c etc.)
+- Map Reduce in Java
+  - Setup
+    -
+  - Map / Reduce
+  - Cleanup

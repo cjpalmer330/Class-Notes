@@ -2,10 +2,10 @@
 title: Chris's Notes
 ---
 
-# <span style="color:#7dafff">Last Updated Wednesday September 11 9:50 AM</span>
+# <span style="color:#7dafff">Last Updated Wednesday September 18 11:25 AM</span>
 
 - Changelog:
-  - added F'24 week 3 notes
+  - added F'24 week 4 notes
 
 # What Classes do I have covered?
 

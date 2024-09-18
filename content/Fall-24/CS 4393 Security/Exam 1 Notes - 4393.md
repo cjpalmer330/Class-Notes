@@ -187,3 +187,61 @@
 - How to detect
   - IRC and DNS activity used to control the bots is very visible, so we can look for hosts who are asking many queries but few are asked about it. This means it is looking for machines
   - Botnets are evaded by using encryption or P2P networks
+
+# Network Security
+
+- The internet is public, and accessible by everyone making it vulnerable to different types of attacks
+- Network security: protecting data in network infrastructure, particularly upholding availability and non-repudiation.
+- Data
+  - Any object that can be processed by a computer, or be sent and received over networks
+  - Two states of data
+    - Transmission state
+      - in the time between hitting send on one machine and it is received by the other host
+    - Storage state
+      - stored somewhere on the network. whether its local to the host or on a cloud server somewhere
+
+## Attack Techniques
+
+- Password Pilfering
+  - getting hold of someone's password, from various methods
+  - guessing
+    - based on the user's name, birthday, pets birthdays, but can be hard.
+  - social engineering
+    - phishing attacks which send emails that seem harmless but redirect to fake pages
+    - page popups asking you to login again
+  - Dictionary attacks
+    - get a hold of some usernames and hashed passwords
+    - can test the hashing routing with common words and number combinations, if we put our guessed password through the hash function and it matches the hash, we know their password. The hash is deterministic
+- Identity Spoofing
+  - allows attackers to impersonate victim without needing their password
+  - Man-in-the-middle attacks
+    - install device between users that will intercept transmitted data that they can then modify or spy on or read.
+  - Message replays
+- Intrusion
+  - An illegitimate user gains access to someone else's computer systems
+    - configuration loopholes, protocol flaws, and software bugs can be exploited
+- Smurf DOS attack
+  - Using the ICMP echo command, a malicious actor can mask or "smurf" their IP to a subnet of computers as the victim machine. This means that when he calls echo, all his smurf machines, will bombard with victim with thousands of echo replies.
+
+## Secret Key Encryption
+
+- each host has a private key that they combine with some public encryption method to protect data over open networks
+- One problem is that both parties need to have access to this secret key, and no one else can have this key otherwise the
+- You also need a very large number of keys. Every person you want to have a conversation with you need to create a new private key and ensure its secrecy
+
+## Steganography
+
+- Cryptography refers to messages with hidden _meaning_
+  - obfuscated and scrambled letters can be read by anyone
+- Steganography refers to hiding the _messages_ themselves
+  - an image with hidden textual meaning to where you would have to know where to look to even see the message
+- Generally the message is covered with something. Usually called _covertext_
+- Steganalysis is the detection of these hidden messages
+- Unbreakable vs Computationally difficult
+  - Cryptosystems ideally should be mathematically indecipherable. that there is no way to decode without the proper key
+  - Most encryption systems are not unbreakable, rather just computationally hard ( such as factoring very large numbers) with the hopes it would take so long to solve, the attack wouldn't be relevant by the time it is solved.
+
+# Early Ciphers
+
+- Caesar Cipher
+  - each letter is moved by some constant down the alphabet. for example all letters + 3. A -> D, B -> E
