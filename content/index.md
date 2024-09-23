@@ -2,10 +2,10 @@
 title: Chris's Notes
 ---
 
-# <span style="color:#7dafff">Last Updated Wednesday September 18 11:25 AM</span>
+# <span style="color:#7dafff">Last Updated Monday September 23 10:45 AM</span>
 
 - Changelog:
-  - added F'24 week 4 notes
+  - added CS 4393 Exam 1 Review
 
 # What Classes do I have covered?
 
