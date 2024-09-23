@@ -1,29 +1,28 @@
-# Definitions - 8/19
-
-- Algorithm - a well defined computational procedure that takes some value or set of values and produces some value in a finite amount of time.
-- Loop Invariance - A form of correctness proof that relies on mathematical induction
-  - Initialization
-    - That the algorithm holds true before we start the iterations
-    - For insertion sort: before we start the algorithm we have a single sorted element
-  - Maintenance
-    - That the algorithm remains true in the next iteration of the for loop
-  - Termination
-    - The algorithm terminates with the correct sequence that the algorithm sought to achieve
-- Asymptotic Analysis
-  - There are some bounds that can be drawn with constant leaders that can restrict the domain of f(n) from above and below
+> [!important]- Definitions
+>
+> - Algorithm - a well defined computational procedure that takes some value or set of values and produces some value in a finite amount of time.
+> - Loop Invariance - A form of correctness proof that relies on mathematical induction
+> - Initialization
+>   - That the algorithm holds true before we start the iterations
+>   - For insertion sort: before we start the algorithm we have a single sorted element
+> - Maintenance
+>   - That the algorithm remains true in the next iteration of the for loop
+> - Termination
+>   - The algorithm terminates with the correct sequence that the algorithm sought to achieve
+> - Asymptotic Analysis
+> - There are some bounds that can be drawn with constant leaders that can restrict the domain of f(n) from above and below
 
 # Big O, Theta, and Omega Notation - 8/21
 
-## Time Constraint Equivalencies
-
-| Function  | Asymptotic Constraint |
-| --------- | --------------------- |
-| log^k n   | o(n^i)                |
-| n ^ k     | o(c^n)                |
-| n^(log c) | Θ(c^(log n))          |
-| log(n!)   | Θ(n log n)            |
-| sqrt(n)   | n^(sin n)             |
-| --------- | --------------------- |
+> [!important]- Time Constraint Equivalencies
+> | Function | Asymptotic Constraint |
+> | --------- | --------------------- |
+> | log^k n | o(n^i) |
+> | n ^ k | o(c^n) |
+> | n^(log c) | Θ(c^(log n)) |
+> | log(n!) | Θ(n log n) |
+> | sqrt(n) | n^(sin n) |
+> | --------- | --------------------- |
 
 ## Big O
 
@@ -139,21 +138,24 @@
       1. if af(n/b) <= cf(n) where c is some constant c < 1
       2. Then T(n) = Θ(f(n))
 
-### Examples
-
-- T(n) = 4T(n/2) + n
-  - Each layer has 4 subproblems each of size n/2
-  - n^(logba) = n^2
-  - f = O(n^2)
-  - T(n) = Θ(n^2)
-- T(n) = 2T(n/4) + n
-  - log4 2 < 1
-  - f(n) = Ω (n^logba)
-  - f(n) = Θ(n)
-- T(n) = 4T(n/2) + n^3
-  - n^log(2) 4 = n^2
-  - f(n) = Ω(n^2)
-  - T(n) = Θ(f(n)) = n^3
+> [!example]-
+>
+> - Problem 1
+>   - T(n) = 4T(n/2) + n
+>     - Each layer has 4 subproblems each of size n/2
+>   - n^(logba) = n^2
+>   - f = O(n^2)
+>   - T(n) = Θ(n^2)
+> - Problem 2
+>   - T(n) = 2T(n/4) + n
+>   - log b (a) < 1 -> log4(2) < 1
+>   - f(n) = Ω (n^logba)
+>   - f(n) = Θ(n)
+> - Problem 3
+>   - T(n) = 4T(n/2) + n^3
+>   - n^log(2) 4 = n^2
+>   - f(n) = Ω(n^2)
+>   - T(n) = Θ(f(n)) = n^3
 
 # Maximum Subarray
 
@@ -198,13 +200,14 @@
   - Rule 1 of master relation
     - f(n) > n^(logba)
   - T(n) = Θ(n log n)
-- Example
-  - Array = \[2,8,7,1,3,5,6,4]
-  - pivot: 4 ( arbitrary, but we are choosing last element)
-  - i and j = 0
-  - for each element, if x < Pivot (4) add it to A\[i]
-    - else A\[j] = x
-  - after each element checked, A\[i+1] = Pivot
+    > [!example]-
+    >
+    > - Array = \[2,8,7,1,3,5,6,4]
+    > - pivot: 4 ( arbitrary, but we are choosing last element)
+    > - i and j = 0
+    > - for each element, if x < Pivot (4) add it to A\[i]
+    >   - else A\[j] = x
+    > - after each element checked, A\[i+1] = Pivot
 
 # Selection Problem
 
@@ -221,10 +224,11 @@
     - if the last subarray has < 5 elements because n % 5 != 0, then we just choose one element arbitrarily
   - find the median of each subarray
   - Find the median value of the medians calculated in the previous step. This is your pivot
-- Why do we use groups of 5?
-  - With larger and larger groups we approach the runtime of simply sorting the array with merge sort. Which defeats the purpose
-  - With even groupings the first median would be an average of the two elements, which isn't very indicative of the true median
-  - With groups of 3, we can show with recurrence relation equation that a "good guess" Bn is always more computationally expensive that MoM approach with groups of 5
+    > [!info]- Why do we use groups of 5?
+    >
+    > - With larger and larger groups we approach the runtime of simply sorting the array with merge sort. Which defeats the purpose
+    > - With even groupings the first median would be an average of the two elements, which isn't very indicative of the true median
+    > - With groups of 3, we can show with recurrence relation equation that a "good guess" Bn is always more computationally expensive that MoM approach with groups of 5
 
 ## Decision Tree for Sorting
 
@@ -235,10 +239,46 @@ A decision tree is a binary tree that represents the sequence of comparisons
 
 # Dynamic Programming
 
-- An approach to solve a problem, where some part of the subproblem is repeated or reused.
-- For Example: Fibonacci numbers rely on the values of the previous sequence. So to find f(5) and subsequently f(6) would both require a recalculation of f(1-4)
-- Fibonacci
-  - Naive Aproach is the recursive call where we return Fibonnaci(n-1) + Fibonnaci(n - 2)
-    - this has a runtime that is exponential (Φ^n)
-  - Memorization Approach
-    - starting from F0 we store any values we haven't approached, and then in future computations we can pull from the cached values in O(1)
+> [!important]- What is Dynamic Programming?
+>
+> - An approach to solve a problem, where some part of the subproblem is repeated or reused.
+> - For Example: Fibonacci numbers rely on the values of the previous sequence. So to find f(5) and subsequently f(6) would both require a recalculation of f(1-4)
+> - Fibonacci
+> - Naive Aproach is the recursive call where we return Fibonnaci(n-1) + Fibonnaci(n - 2)
+>   - this has a runtime that is exponential (Φ^n)
+> - Memorization Approach - starting from F0 we store any values we haven't approached, and then in future computations we can pull from the cached values in O(1)
+
+## Subsequences
+
+> [!info]-What is a subsequence?
+>
+> - Some sequence X is considered a subsequence of another sequence Y if all the elementoXcan be found in sequence Y _in the same order_
+> - X = [A, D, C, A] Y = [ B, A, C, D, A, C, A]
+> - X is a subsequence of Y
+
+- Increasing Subsequence
+  - An increasing subsequence is a subsequence Z that stricly increases from element to element
+    - Ex. Z = [1,2,4,6]
+    - Anti-Example Z =[1,2,4,3]
+  - Longest Increasing Subsequence
+    - Given some sequence X, what is the longest increasing subsequence?
+      - We are concerned with the _length_ of the sequence, not the value or index.
+    - If we are to find the LIS ending at X i=6, then we know, all the elements we choose in the interval must be less than X[6].
+      - using these chosen indeces, we can recursively count the LIS ending in each index chosen. The max of these subproblems will be the LIS of the total subsequence - 1
+        > [!example]-
+        >
+        > - X = [7,2,8,1,3,4,10,6,9,5]
+        > - Find the LIS ending at X[5]
+        >   - The largest number must be < 4
+        > - Find the LIS of {X[1], X[3], X[4]}
+        >   - { 1, 1, 2}
+        >   - Max = 2
+        > - LIS = Max(sub-LIS) + 1 = 3
+        >   - {1, 3, 4}
+
+## Dynamic Programming Examples
+
+- Chain Matrix Multiplication
+  - When multiplying a chain of matrices, different order of operations in terms of the associativity of the multiplication will have vastly different run times.
+  - That is, in terms of the number of calculations needed, and total runtime, A1(A2\*A3) != (A1\* A2) A3
+  - We then given some number of Matrices need to find the ordering that results in the least number of multiplications
