@@ -1,0 +1,32 @@
+# Exam 2 Notes - 4393
+
+- Notes starting from the lecture on 9/26, directly after Exam 1. If there is any overlap in topics for you professor please reference [Exam 1 Notes](./Exam%201%20Notes%20-%204393.md)
+
+# Secret Key Cryptography
+
+- Claude Shannon
+  - proved in 1937 with his Master's thesis that electrical switches could solve boolean algebra
+  - This along with two additional paper were the foundation of _information theory_
+  - Proposed Confusion and Diffusion system
+
+## Diffusion and Confusion
+
+- Concerned with strong ciphers against statistical analysis
+  - Strong cipher: knowledge of how the cipher is made should give no evidence of how to decode. The solution should give no hints to the key or plaintext
+- Shannon proposed a "product cipher" - a block cipher consisting of a sequence of simple operations
+-
+
+## Diffusion
+
+> [!important] Diffusion
+> Statistical characteristics of plaintext is hidden by having each plaintext letter effect the encoding of many ciphertext letters.
+
+- can be accomplished by repeatedly transposing the data, many bits in plaintext will contribute to each ciphertext letter.
+  - Good diffusion is determined if a change in a single plaintext letter has on average ~0.5 letters change in the ciphertext
+
+## Confusion
+
+> [!important] Confusion
+> relation between statistics of the ciphertext and the key. The more complex the higher the confusion.
+
+- Can be achieved with a more complicated substitution algorithm.

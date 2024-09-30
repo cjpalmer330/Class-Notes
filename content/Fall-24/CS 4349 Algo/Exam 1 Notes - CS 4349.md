@@ -260,21 +260,38 @@ A decision tree is a binary tree that represents the sequence of comparisons
   - An increasing subsequence is a subsequence Z that stricly increases from element to element
     - Ex. Z = [1,2,4,6]
     - Anti-Example Z =[1,2,4,3]
-  - Longest Increasing Subsequence
-    - Given some sequence X, what is the longest increasing subsequence?
-      - We are concerned with the _length_ of the sequence, not the value or index.
-    - If we are to find the LIS ending at X i=6, then we know, all the elements we choose in the interval must be less than X[6].
-      - using these chosen indeces, we can recursively count the LIS ending in each index chosen. The max of these subproblems will be the LIS of the total subsequence - 1
-        > [!example]-
-        >
-        > - X = [7,2,8,1,3,4,10,6,9,5]
-        > - Find the LIS ending at X[5]
-        >   - The largest number must be < 4
-        > - Find the LIS of {X[1], X[3], X[4]}
-        >   - { 1, 1, 2}
-        >   - Max = 2
-        > - LIS = Max(sub-LIS) + 1 = 3
-        >   - {1, 3, 4}
+
+### Longest Increasing Subsequence
+
+- Given some sequence X, what is the longest increasing subsequence?
+  - We are concerned with the _length_ of the sequence, not the value or index.
+- If we are to find the LIS ending at X i=6, then we know, all the elements we choose in the interval must be less than X[6].
+  - using these chosen indeces, we can recursively count the LIS ending in each index chosen. The max of these subproblems will be the LIS of the total subsequence - 1
+    > [!example]-
+    >
+    > - X = [7,2,8,1,3,4,10,6,9,5]
+    > - Find the LIS ending at X[5]
+    >   - The largest number must be < 4
+    > - Find the LIS of {X[1], X[3], X[4]}
+    >   - { 1, 1, 2}
+    >   - Max = 2
+    > - LIS = Max(sub-LIS) + 1 = 3
+    >   - {1, 3, 4}
+
+### Longest Common Subsequence
+
+> [!info]- Definitions
+> Given two sequences X and Y, we say that a sequence Z is a common subsequence of X and Y if it is a subsequence of both X and Y.
+> Prefix : Any contiguous substring starting from the first element in a String or sequence.
+> Suffix: Any contiguous substring that ends with the final element in a String or sequence.
+
+> [!example]-
+> X = ABCBDAAB
+> Y = BDCABA
+> The sequence BCA is a common subsequence of X and Y
+> BCBA is also a common subsequence between them
+
+- Prefix
 
 ## Dynamic Programming Examples
 
