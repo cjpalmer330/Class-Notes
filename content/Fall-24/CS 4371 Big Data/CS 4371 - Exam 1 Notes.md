@@ -106,4 +106,23 @@
   - Setup
     -
   - Map / Reduce
+    - worker threads need to read some split of the file / data
+    - workers local write to local disk in two partitions
+      - Worker 1 has its own two partitions, those two partitions sent to the two reducers
+    - reduce workers remote read the intermediate files, and emit the output results.
   - Cleanup
+- Failures
+  - Map worker failure
+    - tasks are reset to idle
+    - reduce workers are notified when task is rescheduled on another worker
+  - Reduce worker failure
+    - only in-progress tasks are reset and restarted
+    - if the failure happens after completion no restart necessary
+  - Master Failure
+    - whole map reduce task is aborted and client is notified
+
+# Map Reduce Algorithm to Process Relational Data
+
+- when we have some sensor outputting data 1000 times a second, over a year we have an insane amount of data.
+- We can use map reduce to sort and handle this amount of data
+  - We would expect the mapper to output KV pairs of the form <timestamp, reading>

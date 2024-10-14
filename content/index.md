@@ -2,10 +2,10 @@
 title: Chris's Notes
 ---
 
-# <span style="color:#7dafff">Last Updated Monday September 30 10:45 AM</span>
+# <span style="color:#7dafff">Last Updated Monday October 14 8:45 AM</span>
 
 - Changelog:
-  - update CS 4349
+  - updated all Fall '24 classes
 
 # What Classes do I have covered?
 

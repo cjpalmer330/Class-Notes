@@ -128,15 +128,27 @@
 
 ### Master Method
 
+### Master Method
+
 - If a < b then we know that the function is sublinear
 - if b < a then the function is some function greater than n^1 ( aka linear)
-- There are three cases in the master method that can be used to quickly find the growth rate of a recurrence relation
-  1.  If f(n) is O(n^(log b a - i)) where i is some constant. then the leaves are growing faster than f, so asymptotically T(n) = Θ(n^log(b)a)
-  2.  if f(n) is Θ(n^log(b) a) the leaves grow at the same rate as the base function, so the tree has O(log n) levels. yielding T(n) = Θ(n^log(b)a (log n))
-      1. The work done by the root is the same amount of work done by the leaves, as is with merge sort. So the total work = height of the tree \* work per layer
-  3.  f(n) is Ω(n^(log(b) a + i)) where i is some constant. in this case f grows faster than the leaves, which means that the work is dominated by the root.
-      1. if af(n/b) <= cf(n) where c is some constant c < 1
-      2. Then T(n) = Θ(f(n))
+- Works in the form T(n) = aT(n / b) + O(n^d)
+- There are three cases for a valid use case
+  - For all three use cases you need to know log(base b) a \[denoted as loga from here on out]and its relation to d
+    1. d > loga
+       - This means the work dominates, thus T(n) = O(n^d)
+    2. d ~ loga
+       - If d and loga are of the same magnitude (constant factor)
+       - T(n) = O(n^d log n)
+       - Ideal case
+    3. d < loga
+       - This means the recursive work is dominating
+       - T(n) - O(n^loga)
+- Steps to solve
+  1.  pull out a,b,d,
+  2.  find loga
+  3.  compare d and loga
+  4.  choose correct case, and get runtime
 
 > [!example]-
 >
