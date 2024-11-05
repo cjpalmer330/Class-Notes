@@ -43,3 +43,64 @@
   - flatMapValues()
   - ReduceByKey()
     - does the reducing that we needed a separate class for in hadoop
+
+# Page Rank
+
+- Ingoing vs outgoing
+  - most pages have links that go to other websites. if they have links like social media sites or other external websites these are called outbound
+  - other websites linking to my webpage are called inbound links
+  - Every page can be described in part by its inbound and outbound link degrees
+- Using both ingoing and outgoing link count we can find the page's **_Rank_**
+- Finding Page Rank
+  1.  Each page starts with a value of 1.
+  2.  Each page outputs a value of 1/outgoing degree to each outbound link in the diagram
+  3.  These inbound links are then your new score to determine your rank
+
+# Spark SQL Concepts
+
+- Create a dataframe to hold the information
+  - Dataframes can be created with SparkSession
+- Dataframe being implemented with an RDD of Rows
+
+# Messaging System
+
+- A messaging system handles messages between hosts
+- Point to Point
+  - This system uses a queue to persist messages
+  - one or more consumers can consume the messages in the queue
+- Publish-Subscribe
+  - This system messages are persisted in a topic
+  - consumers can subscribe to one or more topics and consume all the messages
+  - message producers are called publishers and message consumers are called subscribers
+
+## Kafka
+
+> [!important]- Kafka Rules & Terminology
+>
+> - Topics are identified by name and kept within patitions
+> - The order of messages is maintained at the partition level
+> - Partitions are immutable.
+> - Messages are stored within the partitions with key, value, and timestamp
+> - Each partition has a leader topic, the rest are followers
+> - Broker- a single machine / worker
+
+- Uses publish-subscribe architecture
+- is an enterprise messaging system that provides high throughput with partitions and fault tolerance with replication.
+- deals with real time streaming data. Works with Spark Streaming
+- Messages belong to a particular category called Topics
+- Partition
+  - Each topic is put into a partition
+  - For each topic, Kafka keeps >=1 copy of each topic
+  - each partition has a unique sequence ID called the offset
+- Producer / Consumer
+  - Each consumer group has its own pointer to check where in the partition it wants to read
+  - producer always inserts at the end of the queue, taking up a single pointer
+- Zoo Keeper
+  - an open source coordination service for managing and coordination Kafka brokers
+  - notifies producers and consumers about new brokers, when there is a failure, etc
+
+# NoSQL Databases
+
+Study Topics
+
+1. Are Partitions mutable or immutable?

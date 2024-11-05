@@ -2,7 +2,7 @@
 title: Chris's Notes
 ---
 
-# <span style="color:#7dafff">Last Updated Monday October 14 8:45 AM</span>
+# <span style="color:#7dafff">Last Updated Wednesday November 5 4:45 PM</span>
 
 - Changelog:
   - updated all Fall '24 classes
@@ -22,7 +22,7 @@ Below is all the classes that I have uploaded my notes for to this site. You can
 | [CS 4349 Advanced Algorithms](./Fall-24/CS%204349%20Algo/4349-Home.md)        | Darbari   | Fall '24 | <span style="color:#FF9b77">In Progress</span> |
 | [CS 4371 Big Data Mngmt](./Fall-24/CS%204371%20Big%20Data/4371-Home.md)       | Khan      | Fall '24 | <span style="color:#FF9b77">In Progress</span> |
 | [CS 4375 Machine Leanring](./Fall-24/CS%204375%20ML/4375-Home.md)             | Yang      | Fall '24 | <span style="color:#FF9b77">In Progress</span> |
-| [CS 4393 Network Security](./Fall-24/CS%204393%20Security/4393-Home.md)       | Nguyen    | Fall '24 | <span style="color:#FF9b77">In Progress</span> |
+| [CS 4393 Network Security](./Fall-24/CS%204393%20Security/4393-Home.md)       | Nguyen    | Fall '24 | <span style="color:#FF5b5b">Dropped</span>     |
 
 ## About this site
 
